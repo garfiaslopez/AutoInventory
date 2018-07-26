@@ -1,0 +1,71 @@
+PODS:
+  - Alamofire (4.5.1)
+  - ColorPickerRow (1.2.1):
+    - Eureka (>= 3.0.0)
+    - UIColor_Hex_Swift (>= 3.0.0)
+  - Eureka (4.0.1)
+  - FSCalendar (2.7.9)
+  - ImageRow (3.0.0):
+    - Eureka (~> 4.0)
+  - Material (2.11.4):
+    - Material/Core (= 2.11.4)
+  - Material/Core (2.11.4):
+    - Motion (~> 1.2.0)
+  - Motion (1.2.2):
+    - Motion/Core (= 1.2.2)
+  - Motion/Core (1.2.2)
+  - NVActivityIndicatorView (4.0.0):
+    - NVActivityIndicatorView/Presenter (= 4.0.0)
+  - NVActivityIndicatorView/Presenter (4.0.0)
+  - SwiftyJSON (3.1.4)
+  - UIColor_Hex_Swift (3.0.2)
+  - ViewRow (0.3.0):
+    - Eureka (>= 4.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - ColorPickerRow (from `https://github.com/EurekaCommunity/ColorPickerRow`)
+  - Eureka
+  - FSCalendar
+  - ImageRow (from `https://github.com/EurekaCommunity/ImageRow`)
+  - Material
+  - NVActivityIndicatorView
+  - SwiftyJSON
+  - UIColor_Hex_Swift
+  - ViewRow (from `https://github.com/EurekaCommunity/ViewRow`)
+
+EXTERNAL SOURCES:
+  ColorPickerRow:
+    :git: https://github.com/EurekaCommunity/ColorPickerRow
+  ImageRow:
+    :git: https://github.com/EurekaCommunity/ImageRow
+  ViewRow:
+    :git: https://github.com/EurekaCommunity/ViewRow
+
+CHECKOUT OPTIONS:
+  ColorPickerRow:
+    :commit: 87da04bcb8a2794e9930bade8fec7c78c3620963
+    :git: https://github.com/EurekaCommunity/ColorPickerRow
+  ImageRow:
+    :commit: a673639b85e83e5a6bd2841dc9cad948b62ed0d0
+    :git: https://github.com/EurekaCommunity/ImageRow
+  ViewRow:
+    :commit: fbfc539796f8a00102a671b338c1c3bbb39a6b89
+    :git: https://github.com/EurekaCommunity/ViewRow
+
+SPEC CHECKSUMS:
+  Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
+  ColorPickerRow: 87dd091c54fff65cf554f79ca1556312ee66282f
+  Eureka: c8bd5cc07143b6f66268c208d28a246c99b41955
+  FSCalendar: a04b09f16f811bc92e82f3cf852a15225233b9d5
+  ImageRow: 2683a3b621210ea05c1f3a2fa294d8d14342d24c
+  Material: a1e1ec7789ffab391f8179047926f1736865eb7e
+  Motion: 532cc6bb5d6777c58a20f71c26c5825173017f60
+  NVActivityIndicatorView: 54c9b93b6f25a4f467512680c0c90c09a1095cf2
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+  UIColor_Hex_Swift: 95f718452092a3efc8a827dffd2c04d3237be02d
+  ViewRow: e278428ff53da5eab18b191d3e19a16f3e299fc1
+
+PODFILE CHECKSUM: e05ff16f7987f3d63572a6abb2e8970a7f77f1d2
+
+COCOAPODS: 1.3.1

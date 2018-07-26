@@ -1,0 +1,20 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '10.0'
+
+target 'Autoworldsale' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+    pod 'SwiftyJSON'
+    pod 'Alamofire'
+    pod 'Material'
+    pod 'NVActivityIndicatorView'
+    pod 'FSCalendar'
+    
+    pod 'Eureka'
+    pod 'ColorPickerRow', :git => 'https://github.com/EurekaCommunity/ColorPickerRow'
+    pod 'ImageRow', :git => 'https://github.com/EurekaCommunity/ImageRow'
+    pod 'ViewRow', :git => 'https://github.com/EurekaCommunity/ViewRow'
+    pod 'UIColor_Hex_Swift'
+
+end

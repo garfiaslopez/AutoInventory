@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="45" id="KGk-i7-Jjw" customClass="TireTableVC" customModule="Autoworldsale" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="45"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="44.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ygz-40-Yg9">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Stock" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7nF-EE-r2F">
+                                <rect key="frame" x="188" y="0.0" width="187" height="44"/>
+                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="16"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="tire size" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lf8-WD-bAZ">
+                                <rect key="frame" x="0.0" y="0.0" width="187" height="44"/>
+                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="16"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="44" id="1U3-Bu-4nA"/>
+                            <constraint firstItem="7nF-EE-r2F" firstAttribute="leading" secondItem="Lf8-WD-bAZ" secondAttribute="trailing" constant="1" id="1en-hK-agH"/>
+                            <constraint firstItem="7nF-EE-r2F" firstAttribute="leading" secondItem="Lf8-WD-bAZ" secondAttribute="trailing" constant="1" id="3k4-7Z-zZF"/>
+                            <constraint firstItem="Lf8-WD-bAZ" firstAttribute="leading" secondItem="ygz-40-Yg9" secondAttribute="leading" id="71g-ag-lrI"/>
+                            <constraint firstItem="7nF-EE-r2F" firstAttribute="top" secondItem="ygz-40-Yg9" secondAttribute="top" id="8YB-BS-rUR"/>
+                            <constraint firstAttribute="bottom" secondItem="7nF-EE-r2F" secondAttribute="bottom" id="FEa-yB-rzC"/>
+                            <constraint firstAttribute="bottom" secondItem="Lf8-WD-bAZ" secondAttribute="bottom" id="NFY-jL-emv"/>
+                            <constraint firstItem="7nF-EE-r2F" firstAttribute="width" secondItem="Lf8-WD-bAZ" secondAttribute="width" id="bRr-9G-QMP"/>
+                            <constraint firstItem="Lf8-WD-bAZ" firstAttribute="top" secondItem="ygz-40-Yg9" secondAttribute="top" id="glA-Wp-AqS"/>
+                            <constraint firstAttribute="trailing" secondItem="7nF-EE-r2F" secondAttribute="trailing" id="kTs-tl-nVa"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="ygz-40-Yg9" secondAttribute="bottom" constant="0.5" id="DXb-g3-wG5"/>
+                    <constraint firstItem="ygz-40-Yg9" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Njr-T5-Cqt"/>
+                    <constraint firstAttribute="trailing" secondItem="ygz-40-Yg9" secondAttribute="trailing" id="aRf-Yk-9Sj"/>
+                    <constraint firstItem="ygz-40-Yg9" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="psp-X6-r4G"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="sizeLabel" destination="Lf8-WD-bAZ" id="HZK-ej-47j"/>
+                <outlet property="stockLabel" destination="7nF-EE-r2F" id="dE7-Cw-rkD"/>
+            </connections>
+            <point key="canvasLocation" x="61.5" y="54.5"/>
+        </tableViewCell>
+    </objects>
+</document>
